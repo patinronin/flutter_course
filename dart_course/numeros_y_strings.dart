@@ -1,5 +1,7 @@
 void main() {
-  var nombre = "vanessa";
-  String apellido = "cogollo";
-  print("$nombre $apellido");
+  var nombre = "Maria";
+  String apellido = "Rodriguez";
+  final trabajo = "Cocinera";
+
+  print("$nombre $apellido $trabajo");
 }
