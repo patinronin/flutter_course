@@ -5,8 +5,21 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("putines"),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("app bar"),
+        backgroundColor: Colors.indigo,
+        elevation: 1,
+      ),
+      backgroundColor: Colors.indigo,
+      body: Center(
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const <Widget>[
+              Text("Numero de clicks"),
+              Text("0"),
+            ]),
+      ),
     );
   }
 }
