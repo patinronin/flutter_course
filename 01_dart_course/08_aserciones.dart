@@ -7,6 +7,8 @@ void main() {
 class Square {
   double _side;
 
+  // para que funcione desde la terminal necesitas correr dart asi
+  // dart --enable-asserts
   Square({required double side})
       : assert(side >= 0, "side must be >= 0"),
         _side = side;
